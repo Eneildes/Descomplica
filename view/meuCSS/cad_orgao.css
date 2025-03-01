@@ -1,66 +1,39 @@
-/* cad_orgao.css */
+#principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
 
-/* Estilos gerais para o formulário */
-form {
-    max-width: 500px; /* Largura máxima do formulário */
-    margin: 20px auto; /* Centraliza o formulário na página */
-    padding: 20px; /* Espaçamento interno do formulário */
-    border: 1px solid #ced4da; /* Adiciona uma borda ao formulário */
-    border-radius: 5px; /* Arredonda os cantos do formulário */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao formulário */
 }
-
-/* Estilos para os labels */
-.form-label {
-    font-weight: 500; /* Define a espessura da fonte dos labels */
-    color: #343a40; /* Cor do texto dos labels */
+#principal > form >fieldset{
+    
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
-/* Estilos para os inputs */
-.form-control {
-    border: 1px solid #ced4da; /* Cor da borda dos inputs */
-    border-radius: 5px; /* Arredonda os cantos dos inputs */
-    padding: 10px; /* Espaçamento interno dos inputs */
-    margin-bottom: 15px; /* Espaçamento inferior dos inputs */
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Transição suave na borda e sombra */
+#principal > form{
+    
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
-.form-control:focus {
-    border-color: #80bdff; /* Cor da borda ao receber foco */
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Sombra ao receber foco */
+#principal > form > fieldset .form-group{
+    width: 90%;
+    margin-top: 2vh;
 }
-
-
-/* Estilos para o botão */
-.btn-primary {
-    background-color: #007bff; /* Cor de fundo do botão */
-    border-color: #007bff; /* Cor da borda do botão */
-    transition: all 0.15s ease-in-out;
+#principal > form > fieldset> button{
+    margin-top: 5vh;
 }
-
-.btn-primary:hover {
-    background-color: #0069d9; /* Cor de fundo do botão ao passar o mouse */
-    border-color: #0062cc; /* Cor da borda do botão ao passar o mouse */
+#principal > form > button{
+    margin-top: 5vh;
 }
-
-.btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Sombra ao receber foco */
+#principal > form > legend{
+    text-align: center;
 }
-
-/* Outros estilos que você pode adicionar */
-body {
-    font-family: sans-serif; /* Define a fonte do corpo da página */
-    background-color: #f8f9fa; /* Cor de fundo da página */
-}
-
-h1, h2, h3 {
-  color: #343a40; /* Cor dos títulos */
-}
-
-/* Exemplo de estilo responsivo - Ajusta a largura do formulário em telas menores */
-@media (max-width: 768px) {
-    form {
-        max-width: 90%;
-    }
+#principal >form > select{
+    margin-top: 2vh;
 }
