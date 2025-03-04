@@ -1,0 +1,11 @@
+{
+    "Tabela padrao": {
+        "prefix": "php",
+        "body": [
+        "<?php",
+      "  ",
+        "?>",
+        ],
+        "description": "Atalho para abertura da tag do php"
+    }
+}
