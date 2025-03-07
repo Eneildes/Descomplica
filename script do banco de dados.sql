@@ -41,7 +41,8 @@ CREATE TABLE IF NOT EXISTS public.alocacao
     id_orgao_fk integer NOT NULL,
     data_alocacao date NOT NULL,
     data_alocacao_fim date NOT NULL,
-    funcao character varying(25) NOT NULL
+    funcao character varying(25) NOT NULL,
+    PRIMARY KEY (id_alocacao)
 );
 
 ALTER TABLE IF EXISTS public.alocacao
