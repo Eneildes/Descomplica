@@ -40,9 +40,9 @@ CREATE TABLE IF NOT EXISTS public.alocacao
     id_usuario_fk integer NOT NULL,
     id_orgao_fk integer NOT NULL,
     data_alocacao date NOT NULL,
-    data_alocacao_fim date NOT NULL,
+    data_alocacao_fim date,
     funcao character varying(25) NOT NULL,
-    PRIMARY KEY (id_alocacao)
+    PRIMARY KEY (id_alocacao,id_orgao_fk,id_orgao_fk)
 );
 
 ALTER TABLE IF EXISTS public.alocacao
