@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS public.alocacao
     data_alocacao date NOT NULL,
     data_alocacao_fim date,
     funcao character varying(25) NOT NULL,
-    PRIMARY KEY (id_alocacao,id_orgao_fk,id_orgao_fk)
+    PRIMARY KEY (id_alocacao,id_usuario_fk,id_orgao_fk)
 );
 
 ALTER TABLE IF EXISTS public.alocacao
