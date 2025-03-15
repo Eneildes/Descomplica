@@ -22,18 +22,29 @@
                     <th>Bairro</th>
                     <th>Logradouro</th>
                     <th></th>
+                    <th></th>
                 </tr>
             </thead>
-            
+
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Antonio Carlos Magalhaes</td>
-                    <td>Aurelino Leal</td>
-                    <td>ACM</td>
-                    <td>Rua Risoleta Neves</td>
-                    <td><button type="button" class="btn btn-danger">Deletar</button></td>
-                </tr>
+                <?php
+                foreach ($orgaos as $o) {
+                ?>
+                    <tr onclick="">
+                        
+                            <td><?= $o->getId() ?></td>
+                            <td><?= $o->getNome() ?></td>
+                            <td><?= $o->getCidade() ?></td>
+                            <td><?= $o->getBairro() ?></td>
+                            <td><?= $o->getLogradouro() ?></td>
+                            <td><button type="button" class="btn 
+                            btn-danger">Deletar</button></td>
+                            <td><a href="http://localhost:8080/?classe=orgao&metodo=mostraModificar&id=<?=$o->getId()?>"><button type="button" class="btn 
+                            btn-secondary">Info</button></a></td>
+                    </tr>
+                <?php
+                }
+                ?>
             </tbody>
         </table>
     </div>

@@ -1,5 +1,5 @@
 <?php
-  abstract class Model {
+  abstract class Model{
 
     private static ?PDO $conexao = null;
 
@@ -15,10 +15,10 @@
     }
 
     
-    public abstract function listarTodos();
+    public abstract function listarTodos():array;
     public abstract function selecionarPorId($id);
     public abstract function deletarPorId($id);
-    public abstract function atualizar($obj);
+    public abstract function atualizar($obj):bool;
     public abstract function cadastrar($obj):bool;
   }
 ?>
