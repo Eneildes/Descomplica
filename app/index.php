@@ -14,7 +14,7 @@
   $classe = ucfirst($classe);
   
   require_once("./controllers/$classe.php");
-
+  
   $controller = new $classe();
   $controller->$metodo();
 

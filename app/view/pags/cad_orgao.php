@@ -28,11 +28,12 @@
                     <label for="logradouro" class="form-label">Insira o logradouro</label>
                     <input type="text" class="form-control" id="logradouro" placeholder="Logradouro">
                 </div>
-                <button type="submit" class="btn btn-primary">Registrar</button>
+                <button type="button" class="btn btn-primary" onclick="cadastrar()">Registrar</button>
             </fieldset>
             
             
         </form>
     </div>
+    <script src="requests/orgaoAjax.js"></script>
 </body>
 </html>
