@@ -78,7 +78,7 @@
 
 
                 <select class="form-select">
-                    <option selected disabled>Selecione o nível de formação do usuário</option>
+                    <option selected disabled>Nível de formação</option>
                     <option value="1">Bacharel</option>
                     <option value="2">Licenciado</option>
                     <option value="3">Pós-graduado</option>
@@ -88,7 +88,7 @@
 
 
                 <select class="form-select">
-                    <option selected disabled>Selecione situação atual do usuário</option>
+                    <option selected disabled>Situação atual</option>
                     <option value="1">Ativo</option>
                     <option value="2">Inativo</option>
                     <option value="3">Afastado</option>

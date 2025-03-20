@@ -13,19 +13,19 @@
             <legend>Cadastre o órgão</legend>   
             <fieldset>
                 <div class="form-group">
-                    <label for="orgao" class="form-label">Insira o nome do órgão</label>               
+                    <label for="orgao" class="form-label">Nome do órgão</label>               
                     <input type="text" class="form-control " id="orgao" placeholder="Nome do orgão">
                 </div>
                 <div class="form-group">
-                    <label for="cidade" class="form-label">Insira o nome da cidade</label>
+                    <label for="cidade" class="form-label">Cidade</label>
                     <input type="text" class="form-control" id="cidade" placeholder="Nome da cidade"  >
                 </div>
                 <div class="form-group">                
-                    <label for="bairro" class="form-label">Insira o nome do bairro</label>
+                    <label for="bairro" class="form-label">Bairro</label>
                     <input type="text" class="form-control" id="bairro" placeholder="Nome do bairro">
                 </div>
                 <div class="form-group">
-                    <label for="logradouro" class="form-label">Insira o logradouro</label>
+                    <label for="logradouro" class="form-label">Logradouro</label>
                     <input type="text" class="form-control" id="logradouro" placeholder="Logradouro">
                 </div>
                 <button type="button" class="btn btn-primary" onclick="cadastrar()">Registrar</button>

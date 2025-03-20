@@ -39,7 +39,8 @@
                             <td><?= $o->getLogradouro() ?></td>
                             <td><button type="button" class="btn 
                             btn-danger">Deletar</button></td>
-                            <td><a href="http://localhost:8080/?classe=orgao&metodo=mostraModificar&id=<?=$o->getId()?>"><button type="button" class="btn 
+                            <td><a href="http://localhost:8080/?classe=orgao&metodo=mostraModificar&id=
+                            <?=$o->getId()?>"><button type="button" class="btn 
                             btn-secondary">Info</button></a></td>
                     </tr>
                 <?php
