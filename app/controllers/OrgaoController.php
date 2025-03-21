@@ -2,13 +2,11 @@
 require_once("model/Model.php");
 require_once("model/OrgaoModel.php");
 require_once("valueObjects/Orgao.php");
-class OrgaoController
-{
+class OrgaoController{
     public function mostrarCadastro()
     {
         require_once("./view/pags/cad_orgao.php");
     }
-   
     public function cadastrar()
     {
         $orgaoJson = json_decode(file_get_contents("php://input"));
